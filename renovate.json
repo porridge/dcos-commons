@@ -1,7 +1,7 @@
 {
   "extends": [
     "config:base",
-    "config:disableRateLimiting"
+    ":disableRateLimiting"
   ],
   "renovateFork": true,
   "ignorePaths": [
