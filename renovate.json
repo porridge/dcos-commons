@@ -2,5 +2,8 @@
   "extends": [
     "config:base"
   ],
-  "renovateFork": true
+  "renovateFork": true,
+  "ignorePaths": [
+    "frameworks/*/universe*/package.json"
+  ]
 }
