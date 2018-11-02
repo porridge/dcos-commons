@@ -1,7 +1,6 @@
 {
   "extends": [
-    "config:base",
-    ":disableRateLimiting"
+    "config:base"
   ],
   "dockerfile": {
     "fileMatch": ["(^|/)Dockerfile[^/]*$"]
